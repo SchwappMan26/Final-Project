@@ -6,7 +6,8 @@ public class runner
 			{
 				Skater.AskSkaterName();
 				Skater.AskForElements();
-				
+				ElementValues.Elements();
+				Routine.YourRoutine();
 			}
 
 	}
