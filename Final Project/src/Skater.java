@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 public class Skater
 	{
@@ -15,10 +16,11 @@ public class Skater
 					String name = userInput.nextLine();
 					System.out.println("Introducing from Denver Colorado " + name);
 					System.out.println("Good luck");
+					System.out.println("You are allowed 8 jumps, 3 spins, and 2 Step Sequences");
 				}
 			public static int AskForElements()
 				{
-					System.out.println("What are your elements? You are allowed 8 Jumps, 3 Spins, and 2 step sequences");
+					System.out.println("What are your elements?");
 					System.out.println("(1)Jump, (2)Spin, or (3)step sequence?");
 					int element = userInput.nextInt();
 					if (element==1)
